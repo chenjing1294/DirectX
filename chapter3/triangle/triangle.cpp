@@ -91,7 +91,7 @@ LRESULT CALLBACK d3d::WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 
 
 int WINAPI	WinMain(HINSTANCE hInstance, HINSTANCE prevInstance, PSTR cmsLine, int showCmd) {
-	if (!d3d::InitD3D(hInstance, 800, 600, true, D3DDEVTYPE_HAL, &device)) {
+	if (!d3d::InitD3D(hInstance, Width, Height, true, D3DDEVTYPE_HAL, &device)) {
 		MessageBox(0, TEXT("InitD3D() - FAILED"), 0, 0);
 		return 0;
 	}
