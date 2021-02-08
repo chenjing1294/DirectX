@@ -44,7 +44,7 @@ bool Display(float timeDelta) {
 		static float cameraHeight = 0.0f;
 		static float cameraHeightDirection = 5.0f;
 
-		D3DXVECTOR3 position(cosf(angle) * 10.f, cameraHeight, sinf(angle) * 10.0f);
+		D3DXVECTOR3 position(cosf(angle) * 10.0f, cameraHeight, sinf(angle) * 10.0f);
 		D3DXVECTOR3 target(0.0f, 0.0f, 0.0f);
 		D3DXVECTOR3 up(0.0f, 1.0f, 0.0f);
 		D3DXMATRIX V;
