@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pointLight", "pointLight.vcxproj", "{11EFE647-DB71-40F6-860F-F315A53D4603}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11EFE647-DB71-40F6-860F-F315A53D4603}.Debug|x64.ActiveCfg = Debug|x64
+		{11EFE647-DB71-40F6-860F-F315A53D4603}.Debug|x64.Build.0 = Debug|x64
+		{11EFE647-DB71-40F6-860F-F315A53D4603}.Debug|x86.ActiveCfg = Debug|Win32
+		{11EFE647-DB71-40F6-860F-F315A53D4603}.Debug|x86.Build.0 = Debug|Win32
+		{11EFE647-DB71-40F6-860F-F315A53D4603}.Release|x64.ActiveCfg = Release|x64
+		{11EFE647-DB71-40F6-860F-F315A53D4603}.Release|x64.Build.0 = Release|x64
+		{11EFE647-DB71-40F6-860F-F315A53D4603}.Release|x86.ActiveCfg = Release|Win32
+		{11EFE647-DB71-40F6-860F-F315A53D4603}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E2047A1-F0CF-4526-84E3-D533D879A06B}
+	EndGlobalSection
+EndGlobal
